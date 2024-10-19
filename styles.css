@@ -20,6 +20,7 @@
     gap: 10px;
     height:94vh;
     width: auto;
+    flex: 1;
 }
 
 .navbar {
@@ -58,8 +59,8 @@ li {
     background-size: contain;
     border: 8px solid rgb(4, 2, 15);
     box-shadow: 10px 5px  black;
-    /* border-radius: 5px; */
     height: 95vh;
+    overflow: hidden;
 }
 
 .contact,
@@ -382,9 +383,18 @@ a{
     background-color: #5A6DAF;
 }
 
+#p{
+    margin-top: 20px;
+}
+
 .card-text {
     font-family:'Iosevka Web';
     font-size:20px;
+    margin-top:50px ;
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .dos-contain {
@@ -409,7 +419,7 @@ a{
 }
 
 .redirect:hover {
-    transform: scale(1.05); /* Scales the div to 110% on hover */
+    transform: scale(1.05); 
     background-color: #DB6858;
 }
 
@@ -460,8 +470,78 @@ a{
     font-size: 25px;
 }
 
+.cont-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form-container {
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    background-color: #E3DBBD;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 200px 40px;
+    width: 35%;
+    font-size: 25px;
+    text-align: center;
+}
+
 .contact-text {
     font-weight: bold;
     font-family: 'Iosevka Web';
     text-align: center; 
 }
+
+#name, 
+#email,
+#subject{
+    height: 30px;
+    width: 250px;
+    border: 2px solid rgb(4, 2, 15);
+    box-shadow: 2.5px 1.25px black;
+    background-color: #e0ded7;
+}
+
+
+textarea {
+    width: 100%;         
+    width: 500px;     
+    max-width: 500px; 
+    height: 150px;
+    padding: 10px;        
+    font-size: 16px;      
+    box-sizing: border-box; 
+    margin-bottom: 15px;  
+    border: 2px solid rgb(4, 2, 15);
+    box-shadow: 2.5px 1.25px black;
+    background-color: #e0ded7;
+}
+
+#submit-btn {
+    border: 2px solid rgb(4, 2, 15);
+    box-shadow: 2.5px 1.25px black;
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+    padding: 5px 20px ;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+#submit-btn:hover {
+    transform: scale(1.05); 
+    background-color: #6CA623;
+}
+
+#coming-soon {
+    background-color: #D8D2BC;
+}
+

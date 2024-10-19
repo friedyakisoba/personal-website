@@ -1,0 +1,434 @@
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('/fonts/WOFF2/Iosevka-Light.woff2') format('woff2'), url('TTF/Iosevka-Thin.ttf') format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.whole-body {
+    padding: 45px;
+    background-color: #E3DBBD;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height:94vh;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #8170A3;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px  black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 10vw;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    
+}
+
+li {
+    display: flex;
+    list-style: none;  
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/paper.png);
+    background-size: contain;
+    border: 8px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px  black;
+    /* border-radius: 5px; */
+    height: 95vh;
+}
+
+.contact,
+.me,
+.projects,
+.education {
+    cursor: pointer;
+    font-family: 'Iosevka Web';
+  
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome {
+    font-family: 'Iosevka Web';
+    font-size: 65px;
+}
+.login-1{
+    border: 4px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px  black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px 150px;
+    background-color: #EC785E;
+}
+
+.login-2{
+    border: 4px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px  black;
+    padding: 15px 15px;
+    background-color: #6CA623;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.login-2:hover {
+    transform: scale(1.05);
+    background-color: #EC785E;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logging-in{
+    font-family: 'Iosevka Web';
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* end of body-one 
+   start of about me */
+
+/* About Me Page */
+
+.me a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar-me {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    background-color: #D2513F;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.navbar-icons {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    background-color: #E3DBBD;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 40px;
+    gap: 30px;
+}
+.navbar-skills {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    background-color: #E3DBBD;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 40px;
+    gap: 25px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cross {
+    position: absolute;
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    border: 2px solid rgb(4, 2, 15);
+    box-shadow: 2px 2px black;
+    background-color:#DB6858 ;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+
+}
+
+.cross:hover {
+    background-color: #D2513F;
+}
+
+.cross a {
+    text-decoration: none;
+    color: black;
+}
+
+.introduction-text,
+.about-me-text {
+    /* font-weight: bold; */
+    font-family: 'Iosevka Web';
+    text-align: center; 
+}
+
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.selfie {
+    position: relative; 
+    display: flex;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    height: 500px;
+    width: auto;
+    background-size: cover;
+}
+
+.filler {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    background-color: #E3DBBD;
+    border-bottom: 5px solid rgb(4, 2, 15);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px; 
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+}
+
+.selfie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.introduction-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Iosevka Web';
+    height: 30vh;
+    width: 50vw;
+    background-color: #E3DBBD;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px  black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    overflow: hidden;
+    padding: 35px;
+    
+}
+
+
+/* Projects Page */
+.projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-two {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    background-color: #5A6DAF;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    margin: 15px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.cross {
+    position: absolute;
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    border: 2px solid rgb(4, 2, 15);
+    box-shadow: 2px 2px black;
+    background-color:#DB6858 ;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+}
+
+.cross a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-text {
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+    text-align: center; 
+}
+
+.le-contain {
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 175px;
+    
+}
+
+.card-one {
+    border: 2px solid black;
+}
+
+.image-cont {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.card-one {
+    position: relative; 
+    display: flex;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.filler-two{
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    background-color: #E3DBBD;
+    border-bottom: 5px solid rgb(4, 2, 15);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px; 
+    font-weight: bold;
+    font-family: 'Iosevka Web';
+    background-color: #5A6DAF;
+}
+
+.card-text {
+    font-family:'Iosevka Web';
+    font-size:20px;
+}
+
+.dos-contain {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.redirect {
+    display: flex;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    padding:10px 5px;
+    justify-content: center;
+    margin:20px 0px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: #47A4B9;
+}
+
+.redirect:hover {
+    transform: scale(1.05); /* Scales the div to 110% on hover */
+    background-color: #DB6858;
+}
+
+.change-dir-two {
+    font-family:'Iosevka Web';
+    font-size:22px;
+    text-align: center;
+    
+}
+
+.dos-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-family:'Iosevka Web';
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 350px;
+    align-items: center;
+
+}
+.btn {
+    display: flex;
+    border: 5px solid rgb(4, 2, 15);
+    box-shadow: 10px 5px black;
+    padding: 10px 15px;
+    background-color: #E5615A;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8170A3;
+    transform: scale(1.05);
+}
+
+
+/* start of contact me page */
+

@@ -347,9 +347,14 @@ a{
 }
 
 .image-cont {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: auto;
     object-fit: contain;
+}
+
+#soon {
+    font-family:'Iosevka Web';
+    font-size:20px;
 }
 
 .card-one {
@@ -363,6 +368,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #D8D2BC;
 }
 
 .filler-two{
@@ -397,15 +403,6 @@ a{
     text-align: center;
 }
 
-.dos-contain {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-}
-
 .redirect {
     display: flex;
     border: 5px solid rgb(4, 2, 15);
@@ -432,14 +429,12 @@ a{
 
 .dos-container {
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content:space-between;
     font-family:'Iosevka Web';
     font-size:22px;
     font-weight: bold;
-    margin-top: 250px;
+    margin:225px 20px 20px 20px;
     align-items: center;
-
 }
 .btn {
     display: flex;

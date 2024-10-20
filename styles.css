@@ -4,7 +4,7 @@
 	font-weight: 100;
 	font-stretch: normal;
 	font-style: normal;
-	src: url('/fonts/WOFF2/Iosevka-Light.woff2') format('woff2'), url('TTF/Iosevka-Thin.ttf') format('truetype');
+	src: url('./fonts/WOFF2/Iosevka-Light.woff2') format('woff2'), url('TTF/Iosevka-Thin.ttf') format('truetype');
 }
 
 *{
